@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { check } from "../../public/assets";
 import { pricing } from "../constants";
 import Button from "./Button";
@@ -29,7 +30,7 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:luka.vlahovic564@gmail.com"}
+            href={item.price ? "/pricing" : "mailto:luka.tiwariravikant044@gmail.com"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
@@ -41,7 +42,7 @@ const PricingList = () => {
                 key={index}
                 className="flex items-start py-5 border-t border-n-6"
               >
-                <img src={check} width={24} height={24} alt="Check" />
+                <Image src={check} width={24} height={24} alt="Check" />
                 <p className="body-2 ml-4">{feature}</p>
               </li>
             ))}

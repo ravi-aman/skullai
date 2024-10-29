@@ -22,6 +22,7 @@ export default function Home() {
           <Benefits />
           <Collaboration />
           <Services />
+          <Pricing />
 
         </div>
       </BrowserRouter>
