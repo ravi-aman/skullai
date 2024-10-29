@@ -1,3 +1,4 @@
+import { Image } from "lucide-react";
 import { background } from "../../../public/assets";
 
 export const Rings = () => {
@@ -32,7 +33,7 @@ export const HamburgerMenu = () => {
   return (
     <div className="absolute inset-0 pointer-events-none lg:hidden">
       <div className="absolute inset-0 opacity-[.03]">
-        <img
+        <Image
           className="w-full h-full object-cover"
           src={background}
           width={688}
