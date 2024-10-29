@@ -1,4 +1,4 @@
-import ButtonSvg from "../assets/svg/ButtonSvg";
+import ButtonSvg from "../../public/assets/svg/ButtonSvg";
 
 const Button = ({ className, href, onClick, children, px, white }) => {
   const classes = `button disabled:opacity-50 relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 ${
