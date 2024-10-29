@@ -10,6 +10,7 @@ import Pricing from "../components/Pricing";
 import Roadmap from "../components/Roadmap";
 import Services from "../components/Services";
 import { BrowserRouter } from "react-router-dom";
+import Highlights from '../components/Highlights';
 
 export default function Home() {
   return (
@@ -19,12 +20,16 @@ export default function Home() {
         <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
           <Header />
           <Hero />
+          <Highlights />
           <Benefits />
           <Collaboration />
           <Services />
           <Pricing />
+          <Roadmap />
+          <Footer />
 
         </div>
+        <ButtonGradient />
       </BrowserRouter>
     </>
   );
