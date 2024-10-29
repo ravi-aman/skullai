@@ -21,6 +21,7 @@ export default function Home() {
           <Hero />
           <Benefits />
           <Collaboration />
+          <Services />
 
         </div>
       </BrowserRouter>
