@@ -6,8 +6,8 @@ import "./globals.css";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI SaaS landing page template",
-  description: "AI SaaS landing page template by Aayush Bharti",
+  title: "Skull AI",
+  description: "Skull AI - Your Ultimate AI Companion",
 };
 
 export default function RootLayout({
