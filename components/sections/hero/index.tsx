@@ -29,7 +29,7 @@ const Hero = (props: Props) => {
           <h1 className="h1 mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
             <span className="relative inline-block">
-              StarForge
+              Skull AI
               <Image
                 src={images.curve}
                 className="absolute left-0 top-full w-full xl:-mt-2"
@@ -40,8 +40,8 @@ const Hero = (props: Props) => {
             </span>
           </h1>
           <p className={cn("body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8")}>
-            Unleash the power of AI within StarForge. Upgrade your productivity
-            with StarForge, the open AI chat app.
+            Unleash the power of AI within Skull AI. Upgrade your productivity
+            with Skull AI, the open AI chat app.
           </p>
           <Button href="#pricing" white>
             Get Started

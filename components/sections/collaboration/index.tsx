@@ -53,7 +53,7 @@ const Collaboration = (props: Props) => {
                     src={images.starForgeSymbol}
                     width={48}
                     height={48}
-                    alt="StarForge"
+                    alt="Skull AI"
                     draggable={false}
                   />
                 </div>

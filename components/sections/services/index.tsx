@@ -24,7 +24,7 @@ const Services = (props: Props) => {
       <div className="container">
         <Heading
           title="Generative AI made for creators."
-          text="StarForge unlocks the potential of AI-powered applications"
+          text="Skull AI unlocks the potential of AI-powered applications"
         />
 
         <div className="relative">
@@ -42,7 +42,7 @@ const Services = (props: Props) => {
             <div className="relative z-1 ml-auto max-w-[17rem]">
               <h4 className="h4 mb-4">Smartest AI</h4>
               <p className="body-2 mb-12 text-n-3">
-                StarForge unlocks the potential of AI-powered applications
+                Skull AI unlocks the potential of AI-powered applications
               </p>
               <ul className="body-2">
                 {starForgeServices.map((service, index) => (

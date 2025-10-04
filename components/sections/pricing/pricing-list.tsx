@@ -58,7 +58,7 @@ const PricingList = (props: Props) => {
 
               <Button
                 className="mb-6 w-full"
-                href={item.price ? "/pricing" : "mailto:contact@StarForge.ai"}
+                href={item.price ? "/pricing" : "mailto:contact@skullai.ai"}
                 white={!!item.price}
               >
                 {item.price ? "Get started" : "Contact us"}

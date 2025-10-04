@@ -63,8 +63,8 @@ const Navbar = (props: Props) => {
         className={cn(`flex items-center px-5 max-lg:py-4 lg:px-7.5 xl:px-10`)}
       >
         <Link href="#hero" className={cn(`w-48 xl:mr-8 flex items-center gap-2`)}>
-          <Image src={starForgeSymbol} alt="StarForge" width={40} height={40} />
-          <p className="text-2xl font-grotesk font-extrabold tracking-wide">StarForge</p>
+          <Image src={starForgeSymbol} alt="Skull AI" width={40} height={40} />
+          <p className="text-2xl font-grotesk font-extrabold tracking-wide">Skull AI</p>
         </Link>
 
         <nav
